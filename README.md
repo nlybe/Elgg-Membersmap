@@ -1,15 +1,17 @@
-******* MembersMap Plugin *******
+##MembersMap Plugin for Elgg##
 
 Elgg map plugin for showing community members in Google Maps, based on "location" field offering multiple search options.
 
 This plugin requires the Maps API plugin (https://github.com/nlybe/Elgg-MapsAPI)
+
+Demo: http://nikos.lyberakis.gr/elgg/membersmap
 
 == Contents ==
 
 1. Features
 2. Installation
 
-== 1. Features ==
+###1. Features###
 
 - Group widget for displaying group members on map
 - Option to display members around current logged-in user's location
@@ -35,7 +37,7 @@ This plugin requires the Maps API plugin (https://github.com/nlybe/Elgg-MapsAPI)
 - Visit user's profile from map
 - Multiple configuration options about google maps
 
-== 2. Installation ==
+###2. Installation###
 
 Requires: Elgg 2.1 or higher
 
