@@ -1,5 +1,9 @@
 CHANGE LOG
 
+2.14.2	(Dec 2016)
+--------------------------------
+- Fixed: $_GET replaced by get_input()
+
 2.14.1	(June 2016)
 --------------------------------
 - Admin can select to display tiny or small user's icon n map
