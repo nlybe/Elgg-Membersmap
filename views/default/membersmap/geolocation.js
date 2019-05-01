@@ -3,8 +3,6 @@ define(function(require) {
     var $ = require("jquery");
 
     $(document).ready(function () {
-        //console.log('pppppp');
-        
         if (navigator.geolocation) {
             navigator.geolocation.getCurrentPosition(showPosition);
         } else {

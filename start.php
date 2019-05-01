@@ -61,10 +61,12 @@ function membersmap_init() {
 
     // Extend members tabs - start
     $list_types = array();
-    if (amap_ma_check_if_add_tab_on_entity_page('membersmap'))
+    if (amap_ma_check_if_add_tab_on_entity_page('membersmap')) {
         array_push ($list_types, 'membersmap');
-    if (membersmap_is_geolocation_enabled())
-        array_push ($list_types, 'live_map');    
+    }
+    if (membersmap_is_geolocation_enabled()) {
+        array_push ($list_types, 'live_map'); 
+    }
     
     foreach ($list_types as $type) {
         elgg_register_plugin_hook_handler('members:config', 'tabs', "members_nav_$type");
